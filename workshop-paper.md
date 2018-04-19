@@ -50,8 +50,8 @@ whether it really exists at all. Many efforts evident in the literature
 and in practice have connected live coding to more clearly embodied
 creative practices, such as performance of gestural electronic musical
 instruments, acoustic instrumental performance, dance, and puppetry.
-However, interaction with the coding medium itself–typically a set of
-text buffers–is most often conducted using a keyboard and mouse,
+However, interaction with the coding medium itself—typically a set of
+text buffers—is most often conducted using a keyboard and mouse,
 affording limited capabilities for musical gesture. Of critical import
 to this workshop is to consider how gesture and embodiment figure into
 the process of programming itself in live coding performance.
@@ -76,11 +76,11 @@ Background
 ==========
 
 As surveyed in [@salazar2017searching], evidence of tension between live
-coding and gesture can be seen across the field of live coding, with
-efforts to complement live coding with more typically embodied creative
-practices. Collins describes a number of instances of “bodily explicit
-live coding,” including his own explorations of live coding and dance
-and live coding of an acoustic improvisation
+coding and gesture can be seen across the literature related to the
+former, given many efforts to complement live coding with more typically
+embodied creative practices. Collins describes a number of instances of
+“bodily explicit live coding,” including his own explorations of live
+coding and dance and live coding of an acoustic improvisation
 ensemble [@collins2011live]. Stowell and McLean state that “\[a\] live
 coder, like any improvising performer, is under pressure to do something
 interesting in the moment,” and that a programmer’s use of abstraction
@@ -92,7 +92,10 @@ drummers, banjo players, and beatboxing. Baalman notes “the physical
 interaction of our body \[...\] with the machine” as the primary
 instance of embodiment in live coding, in addition to the development of
 muscle memory of commonly-typed programming language
-syntaxes [@baalman2015embodiment].
+syntaxes [@baalman2015embodiment]. Magnusson describes a live coder as
+“primarily a composer, writing a score for the computer to
+perform” [@magnusson2011algorithms], distancing the gestures of typing
+musical code from the actual production of sound.
 
 Much as been written regarding the relationship of gesture, embodiment,
 and electronic music [@peters2012Bodily; @godoy2009musical], though
@@ -130,26 +133,34 @@ parameters and timing of the fade out, although this precision may not
 be necessary or even desirable in the context of a musical performance.
 This process transpires entirely before any of the resulting sound has
 actually been effected, and, once initiated, a musical action encoded in
-this way might not be easily canceled or modified.
+this way might not be easily canceled or modified. Overall, for some
+musical actions, the advantages of devising an expressive algorithm many
+not justify the effort required, especially in a performance scenario.
+Furthermore, the length of this feedback cycle—formation of a musical
+idea, devising the corresponding algorithm, evaluating the computer’s
+result, and repeat—may impede the exploration of diverse musical ideas,
+an integral component of many creative practices [@mclean2010bricolage].
 
-If the sound source’s volume is mapped to a typical gestural control
-such as a fader or knob, this process is somewhat different. As a
-performer adjusts the volume using the gestural control, they are able
-to quickly hear the audible result of their action, and continue or
-modify the overall gesture as desired. The translation of musical intent
-to audible result is a dynamic feedback loop between physical action and
-sonic effect.
+If in this example the sound source’s volume is mapped to a typical
+gestural control such as a fader or knob, the process is somewhat
+different. As a performer adjusts the volume using the gestural control,
+they are able to quickly hear the audible result of their action, and
+continue or modify the overall gesture as desired. The translation of
+musical intent to audible result is a dynamic feedback loop between
+physical action and sonic effect.
 
 This is not an absolute dichotomy: algorithms might be rapidly enacted
 within a performance in a gestural manner and gesture can be used to
 carry out algorithmic processes. Some systems, such as Field, Max, and
 Auraglyph, merge gestural control within a programming language to
-varying degrees. We are interested in exploring further methods in which
-these two methods of musical activity might be integrated to complement
-one another.
+varying degrees. Perhaps it is simply a given of live coding performance
+that creative control be ceded to algorithms that we might not entirely
+understand. We are interested in exploring further methods in which
+these two methods of musical activity might be integrated in complement
+with one another.
 
-Considerations of Text-based Coding Media
------------------------------------------
+Re-examining Text-based Coding Media
+------------------------------------
 
 Text is arguably the preeminent medium for humans to create programming
 code, and its wide interoperability and simplicity make it a convenient
@@ -175,7 +186,7 @@ medium [@victor2012inventing]. Fusing these ideas with the concepts of
 dynamic [@kay_personal_1977] and tangible [@ishii_tangible_1997] media,
 Victor’s Dynamicland realizes computing processes in the form of
 physical objects that are digitally tracked and projected onto as an
-individual interacts with them [@victor_dynamicland:_2017].
+individual interacts with them in the real world.[^1]
 
 Other researchers have employed very different approaches to the
 apparent gestural limitations of text programming. The Stenophone,
@@ -190,7 +201,34 @@ further discussion within the workshop.
 Thinking Outside the Laptop
 ---------------------------
 
-[@sicchio2014hacking]
+Other approaches to thinking about embodiment and live coding have
+sought intersections between live coding and other, more typically
+embodied creative practices. Collins provides antecedents such as the
+rule-based systems of John Cage and Merce Cunningham in dance practice,
+João Fiadeiro’s employment of real-time composition, and Michael Klien
+and Nick Mortimore’s live direction of dancers via a software
+interface [@collins2011live]. Collins’ own work includes a collaboration
+with Matthew Yee-King to perform live-coded algorithmic dance routines,
+among other live coding practices engaging the body. Sicchio has
+explored the space of live coding and dance extensively; within a
+framework of “Hacking Choreography,” her dance works have used a score
+modified in real-time by its performer, allowed dance scores to be
+created by an audience and performed in real-time, and employed a
+feedback loop between the score, the dancer, and live-coded
+sound [@sicchio2014hacking]. Similar to common musical practice in live
+coding, Sicchio projected the code of her choreographed performances,
+making the process visible to the audience; however, the crucial
+difference is that these algorithmic processes were ultimately
+interpreted by human dancers rather than by machine musicians. Jensenius
+et al. make a fundamental distinction between “the gestures of those
+that produce the sounds (the musicians), and the gestures of those that
+perceive the sounds (the listeners or dancers)” [@jensenius2009musical];
+this contrast is readily apparent in algorave performance, in which live
+coding is explicitly oriented to the production of music for audience
+dancing [@collins2014algorave]. A symposium dedicated to live coding and
+the body was recently held, covering live coding in relationship to
+painting, choreography, puppetry, mobile devices, and other embodied
+forms of expression.[^2]
 
 Workshop Information
 ====================
@@ -244,11 +282,11 @@ In the first 20 minutes, the organisers will briefly introduce the
 subject of embodiment as it relates to live coding, situating it within
 historical context and examples from the literature and their own work.
 This presentation will conclude with a series of open questions about
-the nature of embodiment and gesture in live coding. The next 40 minutes
-will feature open discussion of these questions, inviting personal
-perspectives from the participants. In this short time, we do not expect
-to reach firm conclusions, but we will record notes for later review and
-exploration.
+the nature of embodiment and gesture in live coding, motivated by the
+discussion included here. The next 40 minutes will feature open
+discussion of these questions, inviting personal perspectives from the
+participants. In this short time, we do not expect to reach firm
+conclusions, but we will record notes for later review and exploration.
 
 ### Activity
 
@@ -276,6 +314,14 @@ perspectives on gesture, embodiment, and musical live coding.
 Considerations for future development of the ideas presented and their
 dissemination in research literature will also be discussed.
 
+### After the Workshop
+
+Shortly afterwards, documentation of the workshop and a summarization of
+the proceedings will be publicly disseminated via the Embodied Live
+Coding mailing list[^3] and the webpage for this workshop:
+
+<https://embodiedlivecoding.github.io/nime2018-workshop/>.
+
 Further Information
 ===================
 
@@ -302,3 +348,44 @@ the following from the NIME workshop venue:
 -   A pair of speakers for listening to existing work in this area.
 
 -   A video projector for the beginning presentation.
+
+Biographies
+-----------
+
+Spencer Salazar is a computer musician and researcher currently serving
+as Special Faculty in the School of Music at California Institute of the
+Arts. His research, teaching, and practice is focused on interactive
+computer systems for musical performance, mobile music software, music
+programming languages, and digital music ensembles. Previously he
+pursued his doctoral studies at Stanford CCRMA, where he developed his
+dissertation research on Auraglyph, a modular sketch-based programming
+system for computer music, and was a co-director of the Stanford Laptop
+Orchestra. He is also a lead developer for the ChucK music programming
+language. In the past he has prototyped consumer electronics for
+Microsoft and architected large-scale social music interactions for
+Smule, an iPhone application developer, including the popular Ocarina
+and I Am T-Pain apps. He received a Doctor of Philosophy degree in
+Computer-based Music Theory and Acoustics from Stanford University in
+2017.
+
+Jack Armitage is a musician, designer and technologist, and is currently
+a PhD student within the Augmented Instruments Lab in the Centre for
+Digital Music at Queen Mary University of London. His research is
+focused on developing tools and methods that support live craft process
+in digital musical instrument design. There he is also part of Bela, the
+open source maker platform for ultra-low latency audio and sensor
+processing. In 2017 he was a Visiting Scholar at the Georgia Institute
+of Technology Center for Music Technology. In the last year has given
+instrument design and live coding lectures and workshops in London,
+Edinburgh, New York, Atlanta, Pittsburgh and Morelia Mexico. He has
+performed as a live coder in prestigious clubs such as Heaven London,
+Berghain Berlin and Create Hollywood Blvd. He has a BSc in Music,
+Multimedia and Electronics, and before joining Queen Mary he was a
+research engineer at ROLI.
+
+[^1]: <https://dynamicland.org>
+
+[^2]: <http://www.livecodenetwork.org/body>
+
+[^3]: Hosted here:
+    <https://groups.google.com/forum/#!forum/embodied-live-coding>

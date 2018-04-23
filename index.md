@@ -19,7 +19,9 @@ We look forward to meeting you in Blacksburg.
 
 Warmly,
 The Re-engaging the Body and Gesture in Musical Live Coding Workshop organizers
+
 Spencer Salazar[1] and Jack Armitage[2]
+
 [1] The Herb Alpert School of Music, California Institute of the Arts
 [2] Augmented Instruments Laboratory, Centre for Digital Music, Queen Mary University of London
 

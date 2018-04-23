@@ -393,9 +393,6 @@ References
 [^17]: A. Veinberg and F. Ignacio. CodeKlavier, 2017. Performed at the Third International Conference on Live Coding, Morelia, Mexico.
 [^18]: B. Victor. Inventing on principle, 2012. Keynote at the Canadian University Software Engineering Conference, Montreal, Quebec.
 
-Footnotes
----------
-
 [^19]: <https://dynamicland.org>
 
 [^20]: <http://www.livecodenetwork.org/body>

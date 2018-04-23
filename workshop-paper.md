@@ -86,7 +86,7 @@ perform” [^10], distancing the gestures of typing
 musical code from the actual production of sound.
 
 Much as been written regarding the relationship of gesture, embodiment,
-and electronic music [^12, ^5], though
+and electronic music [^12] [^5], though
 little if any specific treatment of live coding is offered in the
 literature. A survey of definitions of musical gesture by Jensenius et
 al. broadly defines gesture as a “bridge between movement and

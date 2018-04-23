@@ -2,35 +2,23 @@
 layout: default
 ---
 
-<!-- TODO: Integrate front matter and references -->
+# NIME 2018 Workshop: Re-engaging the Body and Gesture in Musical Live Coding
 
----
-abstract: |
-    At first glance, the practice of musical live coding seems distanced
-    from the gestures and sense of embodiment common in musical performance,
-    electronic or otherwise. This workshop seeks to explore the extent to
-    which this assertion is justified, to re-examine notions of gesture and
-    embodiment in musical live coding performance, to consider historical
-    approaches for integrating musical programming and gesture, and to look
-    to the future for new ways of fusing the two. The workshop will consist
-    firstly of a critical discussion of these issues and related literature.
-    This will be followed by applied practical experiments involving ideas
-    generated during these discussions. The workshop will conclude with a
-    recapitulation and examination of these experiments in the context of
-    previous research and proposed future directions.
-author:
-- |
-    Spencer Salazar\
-    \
-    \
-    Jack Armitage\
-    \
-    \
-    \
-bibliography:
-- 'nime-references.bib'
-title: 'Re-engaging the Body and Gesture in Musical Live Coding'
----
+Abstract
+--------
+
+At first glance, the practice of musical live coding seems distanced
+from the gestures and sense of embodiment common in musical performance,
+electronic or otherwise. This workshop seeks to explore the extent to
+which this assertion is justified, to re-examine notions of gesture and
+embodiment in musical live coding performance, to consider historical
+approaches for integrating musical programming and gesture, and to look
+to the future for new ways of fusing the two. The workshop will consist
+firstly of a critical discussion of these issues and related literature.
+This will be followed by applied practical experiments involving ideas
+generated during these discussions. The workshop will conclude with a
+recapitulation and examination of these experiments in the context of
+previous research and proposed future directions.
 
 Introduction and Motivation
 ===========================
@@ -75,36 +63,36 @@ discuss future directions for live coding research and practice.
 Background
 ==========
 
-As surveyed in [@salazar2017searching], evidence of tension between live
+As surveyed in [^13], evidence of tension between live
 coding and gesture can be seen across the literature related to the
 former, given many efforts to complement live coding with more typically
 embodied creative practices. Collins describes a number of instances of
 “bodily explicit live coding,” including his own explorations of live
 coding and dance and live coding of an acoustic improvisation
-ensemble [@collins2011live]. Stowell and McLean state that “\[a\] live
+ensemble [^3]. Stowell and McLean state that “\[a\] live
 coder, like any improvising performer, is under pressure to do something
 interesting in the moment,” and that a programmer’s use of abstraction
 and scheduling “can lead to a lack of immediacy in how the performer’s
-actions relate to the music” [@stowell2013live]. These concerns
+actions relate to the music” [^16]. These concerns
 motivated their commingling of live coding with “open gesture-based
 expression,” including collaborations with vocalists, thrash guitarists,
 drummers, banjo players, and beatboxing. Baalman notes “the physical
 interaction of our body \[...\] with the machine” as the primary
 instance of embodiment in live coding, in addition to the development of
 muscle memory of commonly-typed programming language
-syntaxes [@baalman2015embodiment]. Magnusson describes a live coder as
+syntaxes [^2]. Magnusson describes a live coder as
 “primarily a composer, writing a score for the computer to
-perform” [@magnusson2011algorithms], distancing the gestures of typing
+perform” [^10], distancing the gestures of typing
 musical code from the actual production of sound.
 
 Much as been written regarding the relationship of gesture, embodiment,
-and electronic music [@peters2012Bodily; @godoy2009musical], though
+and electronic music [^12, ^5], though
 little if any specific treatment of live coding is offered in the
 literature. A survey of definitions of musical gesture by Jensenius et
 al. broadly defines gesture as a “bridge between movement and
-meaning” [@jensenius2009musical]. At least one notion of gesture in a
+meaning” [^7]. At least one notion of gesture in a
 computing system rejects the activities associated with typing on a
-keyboard [@kurtenbach1990art], though most seem to admit any physical
+keyboard [^9], though most seem to admit any physical
 action linked to a musical result.
 
 Questions and Challenges
@@ -139,7 +127,7 @@ not justify the effort required, especially in a performance scenario.
 Furthermore, the length of this feedback cycle—formation of a musical
 idea, devising the corresponding algorithm, evaluating the computer’s
 result, and repeat—may impede the exploration of diverse musical ideas,
-an integral component of many creative practices [@mclean2010bricolage].
+an integral component of many creative practices [^11].
 
 If in this example the sound source’s volume is mapped to a typical
 gestural control such as a fader or knob, the process is somewhat
@@ -177,24 +165,24 @@ Codea are text-based programming systems that additionally enable
 gestural manipulation of syntax elements directly inline with text code.
 In Auraglyph, developed by the first author, coding structures are
 sketched rather than typed, and further manipulated by touch
-gestures [@salazar2014auraglyph]. These systems begin to resonate with
+gestures [^14]. These systems begin to resonate with
 Victor’s principle of enhancing the connection of a programmer with the
 program they have created; an ultimate consequence of this principle is
 the dispensing of the traditional write-compile-run cycle in exchange
 for a more immediate and reactive computing
-medium [@victor2012inventing]. Fusing these ideas with the concepts of
-dynamic [@kay_personal_1977] and tangible [@ishii_tangible_1997] media,
+medium [^18]. Fusing these ideas with the concepts of
+dynamic [^8] and tangible [^6] media,
 Victor’s Dynamicland realizes computing processes in the form of
 physical objects that are digitally tracked and projected onto as an
-individual interacts with them in the real world.[^1]
+individual interacts with them in the real world.[^19]
 
 Other researchers have employed very different approaches to the
 apparent gestural limitations of text programming. The Stenophone,
 developed by the second author, is a chorded keyboard with gestural
 control of its individual keys, used as an interface for musical live
-coding [@armitage2017stenophone]. The CodeKlavier uses a musical
+coding [^1]. The CodeKlavier uses a musical
 keyboard as an interface for both direct sound production and entry of
-textual code into a live coding environment [@veinberg2017codeklavier].
+textual code into a live coding environment [^17].
 The aforementioned systems are presented here as considerations for
 further discussion within the workshop.
 
@@ -207,7 +195,7 @@ embodied creative practices. Collins provides antecedents such as the
 rule-based systems of John Cage and Merce Cunningham in dance practice,
 João Fiadeiro’s employment of real-time composition, and Michael Klien
 and Nick Mortimore’s live direction of dancers via a software
-interface [@collins2011live]. Collins’ own work includes a collaboration
+interface [^3]. Collins’ own work includes a collaboration
 with Matthew Yee-King to perform live-coded algorithmic dance routines,
 among other live coding practices engaging the body. Sicchio has
 explored the space of live coding and dance extensively; within a
@@ -215,20 +203,20 @@ framework of “Hacking Choreography,” her dance works have used a score
 modified in real-time by its performer, allowed dance scores to be
 created by an audience and performed in real-time, and employed a
 feedback loop between the score, the dancer, and live-coded
-sound [@sicchio2014hacking]. Similar to common musical practice in live
+sound [^15]. Similar to common musical practice in live
 coding, Sicchio projected the code of her choreographed performances,
 making the process visible to the audience; however, the crucial
 difference is that these algorithmic processes were ultimately
 interpreted by human dancers rather than by machine musicians. Jensenius
 et al. make a fundamental distinction between “the gestures of those
 that produce the sounds (the musicians), and the gestures of those that
-perceive the sounds (the listeners or dancers)” [@jensenius2009musical];
+perceive the sounds (the listeners or dancers)” [^7];
 this contrast is readily apparent in algorave performance, in which live
 coding is explicitly oriented to the production of music for audience
-dancing [@collins2014algorave]. A symposium dedicated to live coding and
+dancing [^4]. A symposium dedicated to live coding and
 the body was recently held, covering live coding in relationship to
 painting, choreography, puppetry, mobile devices, and other embodied
-forms of expression.[^2]
+forms of expression.[^20]
 
 Workshop Information
 ====================
@@ -318,7 +306,7 @@ dissemination in research literature will also be discussed.
 
 Shortly afterwards, documentation of the workshop and a summarization of
 the proceedings will be publicly disseminated via the Embodied Live
-Coding mailing list[^3] and the webpage for this workshop:
+Coding mailing list[^21] and the webpage for this workshop:
 
 <https://embodiedlivecoding.github.io/nime2018-workshop/>.
 
@@ -383,9 +371,34 @@ Berghain Berlin and Create Hollywood Blvd. He has a BSc in Music,
 Multimedia and Electronics, and before joining Queen Mary he was a
 research engineer at ROLI.
 
-[^1]: <https://dynamicland.org>
+References
+----------
 
-[^2]: <http://www.livecodenetwork.org/body>
+[^1]: J. Armitage and A. McPherson. The stenophone: live coding on a chorded keyboard with continuous control. In Proceedings of the International Conference on Live Coding, 2017.
+[^2]: M. Baalman. Embodiment of code. In Proceedings of the First International Conference on Live Coding, 2015.
+[^3]: N. Collins. Live coding of consequence. Leonardo, 44(3):207–211, 2011.
+[^4]: N. Collins and A. McLean. Algorave: Live performance of algorithmic electronic dance music. In Proceedings of the International Conference on New Interfaces for Musical Expression, pages 355–358, 2014.
+[^5]: R. I. Godøy and M. Leman, editors. Musical gestures: Sound, movement, and meaning. Routledge, 2009.
+[^6]: H. Ishii and B. Ullmer. Tangible bits: towards seamless interfaces between people, bits and atoms. In Proceedings of the ACM SIGCHI Conference on Human factors in computing systems. ACM, 1997.
+[^7]: A. R. Jensenius, M. M. Wanderley, R. I. Godøy, and M. Leman. Musical gestures: Concepts and methods in research. In R. I. Godøy and M. Leman, editors, Musical gestures: Sound, movement, and meaning. Routledge, 2009.
+[^8]: A. Kay and A. Goldberg. Personal dynamic media. Computer, 10(3):31–41, 1977.
+[^9]: G. Kurtenbach and E. A. Hulteen. Gestures in human-computer communication. In B. Laurel and S. J. Mountford, editors, The art of human-computer interface design. Addison-Wesley, 1990.
+[^10]: T. Magnusson. Algorithms as scores: Coding live music. Leonardo Music Journal, pages 19–23, 2011.
+[^11]: A. McLean and G. Wiggins. Bricolage programming in the creative arts. 22nd Psychology of Programming Interest Group, 2010.
+[^12]: D. Peters, G. Eckel, and A. Dorschel, editors. Bodily Expression in Electronic Music. Routledge, 2012.
+[^13]: S. Salazar. Searching for gesture and embodiment in live coding. In Proceedings of the International Conference on Live Coding, 2017.
+[^14]: S. Salazar and G. Wang. Auraglyph: Handwritten computer music composition and design. In Proceedings of the International Conference on New Interfaces for Musical Expression, pages 106–109, 2014.
+[^15]: K. Sicchio. Hacking choreography: Dance and live coding. Computer Music Journal, 38(1):31–39, 2014.
+[^16]: D. Stowell and A. McLean. Live music-making: A rich open task requires a rich open interface. In Music and human-computer interaction, pages 139–152. Springer, 2013.
+[^17]: A. Veinberg and F. Ignacio. CodeKlavier, 2017. Performed at the Third International Conference on Live Coding, Morelia, Mexico.
+[^18]: B. Victor. Inventing on principle, 2012. Keynote at the Canadian University Software Engineering Conference, Montreal, Quebec.
 
-[^3]: Hosted here:
+Footnotes
+---------
+
+[^19]: <https://dynamicland.org>
+
+[^20]: <http://www.livecodenetwork.org/body>
+
+[^21]: Hosted here:
     <https://groups.google.com/forum/#!forum/embodied-live-coding>

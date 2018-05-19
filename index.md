@@ -4,6 +4,8 @@ layout: default
 
 # NIME 2018 Workshop: Re-engaging the Body and Gesture in Musical Live Coding
 
+Register here: <https://docs.google.com/forms/d/1POiR5WJJmwDgcSTD9w-SMuDvIOU5yofsJdLnWFIccPE/viewform?edit_requested=true>
+
 As part of the New Interfaces for Musical Expression (NIME 2018) conference, we would like to invite you to the "Re-engaging the Body and Gesture in Musical Live Coding" workshop. This half-day workshop will take place Sunday, June 3, at Virginia Tech in Blacksburg, Virginia. 
 
 The goal of this workshop is to explore the multifaceted relationships between live coding, gesture, and embodiment in musical performance. In particular, we seek to critically assess the current state of affairs as pertains to live coding and gesturality, and further propose and evaluate new ideas for synthesizing the two. We will offer an opportunity for participants to compare experiences, reflect on their own work, and discuss ways to impart gestural and embodied interactions in musical live coding.

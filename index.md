@@ -4,6 +4,8 @@ layout: default
 
 # NIME 2018 Workshop: Re-engaging the Body and Gesture in Musical Live Coding
 
+Sunday June 3, 1-4pm, [Center of Dance, 460 Turner St NW, Blacksburg, VA 24060, USA](https://maps.google.com/maps?f=q&hl=en&q=37.2334739,-80.4226548&z=13&layer=t&iframe=yes&w=100%&sidebar=yes&bg=no)
+
 Register here: <https://docs.google.com/forms/d/1POiR5WJJmwDgcSTD9w-SMuDvIOU5yofsJdLnWFIccPE/viewform>
 
 As part of the New Interfaces for Musical Expression (NIME 2018) conference, we would like to invite you to the "Re-engaging the Body and Gesture in Musical Live Coding" workshop. This half-day workshop will take place Sunday, June 3, at Virginia Tech in Blacksburg, Virginia. 
